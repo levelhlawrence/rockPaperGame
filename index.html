@@ -7,7 +7,32 @@
     <title>Rock Paper Scissors Game</title>
   </head>
   <body>
-    <h1>Rock Paper Scissors</h1>
+    <section id="start-game-section">
+      <div>
+        <button id="start-game">Start Game</button>
+      </div>
+    </section>
+    <section id="main-game">
+      <h1>Rock Paper Scissors</h1>
+      <div id="play-area">
+        <div id="score-area">
+          <p>Player Score: <span id="player-score">0</span></p>
+          <p>Tie: <span id="tie-score">0</span></p>
+          <p>Computer Score: <span id="cpu-score">0</span></p>
+        </div>
+        <div id="player-option">
+          <button class="player-input-btns" id="rock">✊</button>
+          <button class="player-input-btns" id="paper">📝</button>
+          <button class="player-input-btns" id="scissors">✂️</button>
+        </div>
+      </div>
+    </section>
+    <audio id="background-audio" autoplay loop>
+      <source
+        src="music/background-music-for-mobile-casual-video-game-short-8-bit-music-164703.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
     <script src="./app.js"></script>
   </body>
 </html>
