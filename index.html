@@ -15,6 +15,7 @@
     <section id="main-game">
       <h1>Rock Paper Scissors</h1>
       <div id="play-area">
+        <h3 id="rounds-remaining">Rounds: 0 out of 5</h3>
         <div id="score-area">
           <p>Player Score: <span id="player-score">0</span></p>
           <p>Tie: <span id="tie-score">0</span></p>
@@ -25,6 +26,13 @@
           <button class="player-input-btns" id="paper">📝</button>
           <button class="player-input-btns" id="scissors">✂️</button>
         </div>
+      </div>
+    </section>
+    <section id="game-over">
+      <h3>Game Over</h3>
+      <div>
+        <h4 id="game-results">Winner:</h4>
+        <button id="play-again">Play again?</button>
       </div>
     </section>
     <audio id="background-audio" autoplay loop>
